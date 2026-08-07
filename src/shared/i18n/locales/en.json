@@ -1,0 +1,362 @@
+{
+  "app": {
+    "name": "Lumen",
+    "tagline": "Strike. Learn. Ship.",
+    "loading": "Loading…",
+    "retry": "Try again",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "cancel": "Cancel",
+    "search": "Search",
+    "clearFilters": "Clear filters",
+    "language": "Language",
+    "english": "English",
+    "arabic": "العربية",
+    "openMenu": "Open menu",
+    "closeMenu": "Close"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "toLight": "Switch to light mode",
+    "toDark": "Switch to dark mode"
+  },
+  "dialog": {
+    "close": "Close dialog",
+    "gotIt": "Got it",
+    "logoutTitle": "Sign out?",
+    "logoutBody": "You will need to sign in again to access your learning progress and certificates."
+  },
+  "header": {
+    "brandLine": "Learning platform",
+    "learnCta": "Get started",
+    "topLine": "Lumen Academy · Workforce learning",
+    "supportLine": "Support · hello@lumen.app"
+  },
+  "nav": {
+    "home": "Home",
+    "courses": "Courses",
+    "myLearning": "My Learning",
+    "certificates": "Certificates",
+    "dashboard": "Instructor",
+    "createCourse": "Create course",
+    "profile": "Profile",
+    "login": "Sign in",
+    "register": "Create account",
+    "logout": "Sign out",
+    "menus": {
+      "catalog": "Catalog",
+      "learn": "Learning",
+      "teach": "Teach",
+      "support": "Support",
+      "allCourses": "All courses",
+      "allCoursesDesc": "Browse the full catalog",
+      "programmingDesc": "Code, systems, and tools",
+      "designDesc": "Visual craft and UX",
+      "businessDesc": "Strategy and operations",
+      "languagesDesc": "Communication skills",
+      "myLearningDesc": "Continue enrolled courses",
+      "certificatesDesc": "View earned credentials",
+      "browseMore": "Explore more",
+      "browseMoreDesc": "Find your next pathway",
+      "startLearning": "Start learning",
+      "startLearningDesc": "Create an account and enroll",
+      "loginDesc": "Access your progress",
+      "dashboardDesc": "Track enrollments and stats",
+      "createCourseDesc": "Publish a new program",
+      "becomeInstructor": "Become an instructor",
+      "becomeInstructorDesc": "Open a teaching account",
+      "teachingGuide": "Teaching paths",
+      "teachingGuideDesc": "See what learners study",
+      "contact": "Contact us",
+      "contactDesc": "Message the Lumen team",
+      "helpCenter": "Help center",
+      "helpCenterDesc": "Guides and quick answers",
+      "accountDesc": "Manage your profile"
+    }
+  },
+  "footer": {
+    "blurb": "Lumen equips teams and individuals with structured courses, assessments, and verifiable certificates.",
+    "enterpriseNote": "Built for academies, training orgs, and internal L&D programs.",
+    "explore": "Explore",
+    "teach": "Instructors",
+    "contact": "Contact",
+    "email": "hello@lumen.app",
+    "hours": "Mon–Fri · 09:00–18:00",
+    "rights": "© {{year}} Lumen. All rights reserved."
+  },
+  "home": {
+    "hero": {
+      "aria": "Lumen hero",
+      "headline": "Learning infrastructure for serious skill growth",
+      "support": "Curriculum, assessments, and credentials in one sharp operating system.",
+      "browse": "Explore catalog",
+      "start": "Create account"
+    },
+    "pillars": {
+      "kicker": "Platform",
+      "title": "Everything required to run learning at scale",
+      "subtitle": "A complete loop from enrollment to verified completion — without clutter.",
+      "curriculum": {
+        "title": "Structured curriculum",
+        "body": "Lesson sequences with clear duration, progress, and instructor ownership."
+      },
+      "assessment": {
+        "title": "Assessment built in",
+        "body": "Quizzes with pass thresholds so completion means demonstrated competence."
+      },
+      "credentials": {
+        "title": "Shareable credentials",
+        "body": "Certificates issued when learners finish lessons and clear the assessment."
+      }
+    },
+    "pathways": {
+      "kicker": "Catalog",
+      "title": "Choose a pathway",
+      "subtitle": "Four focused domains. Jump straight into the catalog filtered for your track.",
+      "explore": "Open pathway"
+    },
+    "featured": {
+      "kicker": "Featured",
+      "title": "Courses in rotation",
+      "subtitle": "Curated programs across programming, design, business, and languages.",
+      "viewAll": "View full catalog"
+    },
+    "method": {
+      "kicker": "Method",
+      "title": "How Lumen works",
+      "subtitle": "A short path from enrollment to credential — designed for completion.",
+      "enroll": {
+        "title": "Enroll",
+        "body": "Join a course and unlock the lesson player with tracked progress."
+      },
+      "learn": {
+        "title": "Learn & complete",
+        "body": "Work through lessons, mark completion, and keep momentum visible."
+      },
+      "certify": {
+        "title": "Assess & certify",
+        "body": "Pass the quiz to issue a certificate you can share with confidence."
+      }
+    },
+    "teach": {
+      "kicker": "For instructors",
+      "title": "Publish courses. Track your learners.",
+      "subtitle": "Create programs, monitor enrollments, and issue credentials from one dashboard.",
+      "cta": "Become an instructor",
+      "secondary": "Open dashboard"
+    }
+  },
+  "courses": {
+    "kicker": "Catalog",
+    "title": "Course catalog",
+    "subtitle": "Filter by domain and level to find the next skill your team needs.",
+    "resultCount_one": "{{count}} course",
+    "resultCount_other": "{{count}} courses",
+    "searchPlaceholder": "Search courses…",
+    "category": "Category",
+    "level": "Level",
+    "allCategories": "All categories",
+    "allLevels": "All levels",
+    "emptyTitle": "No courses found",
+    "emptyBody": "Try a different search or clear your filters.",
+    "pageOf": "Page {{page}} of {{total}}",
+    "lessonCount_one": "{{count}} lesson",
+    "lessonCount_other": "{{count}} lessons",
+    "duration": "{{minutes}} min",
+    "minutes": "min",
+    "taughtBy": "Led by {{name}}",
+    "curriculum": "Curriculum",
+    "curriculumSubtitle": "Lesson sequence designed for progressive mastery.",
+    "quizIncluded": "Assessment included: {{title}} ({{count}} questions)",
+    "quizBadge": "Quiz",
+    "featuredBadge": "Featured",
+    "specLessons": "Lessons",
+    "specDuration": "Duration",
+    "specLevel": "Level",
+    "specAssessment": "Assessment",
+    "assessmentIncluded": "Included",
+    "assessmentNone": "Not required",
+    "startLearning": "Start learning",
+    "startLearningBody": "Enroll to unlock the player, track progress, and reach certification.",
+    "categories": {
+      "programming": "Programming",
+      "design": "Design",
+      "business": "Business",
+      "languages": "Languages"
+    },
+    "levels": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    }
+  },
+  "learn": {
+    "enroll": "Enroll now",
+    "signInToEnroll": "Sign in to enroll",
+    "openPlayer": "Open course player",
+    "takeQuiz": "Take assessment",
+    "progressLabel": "{{percent}}% complete",
+    "completed": "Done",
+    "markComplete": "Mark lesson complete",
+    "lessonDone": "Lesson completed",
+    "prevLesson": "Previous",
+    "nextLesson": "Next lesson",
+    "lessonOf": "Lesson {{current}} of {{total}}",
+    "playerKicker": "Course player",
+    "workspaceKicker": "Workspace",
+    "enrolledCount_one": "{{count}} enrollment",
+    "enrolledCount_other": "{{count}} enrollments",
+    "notEnrolledTitle": "Enroll to start learning",
+    "notEnrolledBody": "Join this course to unlock lessons, assessments, and your certificate path.",
+    "myLearningTitle": "My learning",
+    "myLearningSubtitle": "Continue enrolled programs with live progress across every course.",
+    "emptyLearningTitle": "No enrollments yet",
+    "emptyLearningBody": "Browse the catalog and enroll in a course to begin.",
+    "continue": "Continue",
+    "articleLesson": "Reading lesson",
+    "openSourceLesson": "Open original",
+    "lessonContentError": "Could not load this lesson from Agentic School.",
+    "quizIntro": "Answer every question. Passing score: {{pass}}%.",
+    "submitQuiz": "Submit assessment",
+    "quizPassed": "Assessment passed",
+    "quizFailed": "Keep practicing",
+    "quizScore": "You scored {{score}}%. Passing score is {{pass}}%.",
+    "backToCourse": "Back to course",
+    "viewCertificate": "View certificate",
+    "printCertificate": "Print",
+    "downloadCertificate": "Download",
+    "certificateReadyTitle": "Certificate unlocked",
+    "certificateReadyBody": "You finished this course. View, print, or download your certificate.",
+    "certificateLockedTitle": "Certificate in progress",
+    "certificateLockedBody": "Complete every lesson to unlock your certificate ({{done}}/{{total}} done).",
+    "certificateProgressHint": "Certificate unlocks at 100% · now {{percent}}%",
+    "quizRequiredTitle": "Assessment required",
+    "quizRequiredBody": "Complete the quiz with a passing score to unlock your certificate.",
+    "certificatesKicker": "Credentials",
+    "certificatesTitle": "Certificates",
+    "certificatesSubtitle": "Verified completion records for courses you have finished.",
+    "emptyCertificatesTitle": "No certificates yet",
+    "emptyCertificatesBody": "Complete all lessons in a course to earn a certificate.",
+    "certificateHeading": "Certificate of completion",
+    "certificateAwarded": "This certifies that",
+    "certificateFor": "has successfully completed {{course}}"
+  },
+  "instructor": {
+    "kicker": "Instructor ops",
+    "title": "Instructor dashboard",
+    "subtitle": "Publish programs, monitor enrollments, and track completion quality.",
+    "createCourse": "Create course",
+    "createKicker": "Publish",
+    "createSubtitle": "Add a course with at least one lesson. Learners can enroll as soon as it goes live.",
+    "backToDashboard": "Back to dashboard",
+    "myCourses": "My courses",
+    "myCoursesSubtitle": "Programs you own, with live enrollment counts.",
+    "noCourses": "You have not published a course yet.",
+    "enrollmentCount_one": "{{count}} enrollment",
+    "enrollmentCount_other": "{{count}} enrollments",
+    "submitCourse": "Publish course",
+    "viewEnrollments": "View enrollments",
+    "enrollmentsTitle": "Enrollments — {{course}}",
+    "noEnrollments": "No students enrolled yet.",
+    "student": "Student",
+    "progress": "Progress",
+    "enrolledAt": "Enrolled",
+    "stats": {
+      "courses": "Courses",
+      "enrollments": "Enrollments",
+      "certificates": "Certificates issued",
+      "avgProgress": "Avg. progress"
+    },
+    "fields": {
+      "title": "Course title",
+      "description": "Description",
+      "thumbnail": "Thumbnail URL",
+      "lesson1Title": "Lesson 1 title",
+      "lesson1Video": "Lesson 1 video URL",
+      "lesson1Duration": "Lesson 1 duration (min)",
+      "lesson2Title": "Lesson 2 title (optional)",
+      "lesson2Video": "Lesson 2 video URL (optional)",
+      "lesson2Duration": "Lesson 2 duration (min)"
+    }
+  },
+  "auth": {
+    "loginTitle": "Welcome back",
+    "loginSubtitle": "Sign in to your Lumen workspace.",
+    "registerTitle": "Create your account",
+    "registerSubtitle": "Join as a learner or instructor — ready in minutes.",
+    "visualLine": "A calm workspace for teaching, practice, and proof.",
+    "visualKicker": "Learn with intent",
+    "stageHeadline": "Build skills that hold under pressure.",
+    "stepLabel": "Account access",
+    "backHome": "Back to home",
+    "points": {
+      "curriculum": "Structured courses with clear outcomes",
+      "progress": "Progress that stays with you",
+      "credentials": "Certificates you can share"
+    },
+    "email": "Email",
+    "password": "Password",
+    "fullName": "Full name",
+    "phone": "Phone (optional)",
+    "role": "Role",
+    "roles": {
+      "student": "Student",
+      "instructor": "Instructor"
+    },
+    "submitLogin": "Sign in",
+    "submitRegister": "Create account",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password",
+    "demoHint": "Demo: instructor@lumen.app or student@lumen.app — Password123!",
+    "noAccount": "New to Lumen?",
+    "hasAccount": "Already have an account?"
+  },
+  "profile": {
+    "title": "Your profile",
+    "subtitle": "Account identity for your Lumen workspace.",
+    "editTitle": "Edit details",
+    "save": "Save changes",
+    "saved": "Profile updated.",
+    "role": "Role",
+    "memberSince": "Member since",
+    "kicker": "Account"
+  },
+  "contact": {
+    "kicker": "Support",
+    "title": "Contact us",
+    "subtitle": "Send a message to the Lumen team — we typically reply within one business day.",
+    "formTitle": "Send a message",
+    "emailLabel": "Email",
+    "hoursLabel": "Hours",
+    "responseLabel": "Response time",
+    "responseBody": "Within 1 business day",
+    "fields": {
+      "name": "Full name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message"
+    },
+    "submit": "Send message",
+    "success": "Message sent. We will get back to you soon."
+  },
+  "validation": {
+    "required": "This field is required",
+    "email": "Enter a valid email",
+    "passwordMin": "Password must be at least 8 characters",
+    "url": "Enter a valid URL"
+  },
+  "errors": {
+    "generic": "Something went wrong. Please try again.",
+    "loadFailed": "Could not load this page",
+    "unauthorized": "Please sign in to continue",
+    "forbidden": "You do not have access to this action",
+    "notFound": "We could not find that resource",
+    "notEnrolled": "Enroll in the course first",
+    "validation": "Please check your input",
+    "emailTaken": "That email is already registered",
+    "invalidCredentials": "Invalid email or password",
+    "network": "Unable to reach the server"
+  }
+}

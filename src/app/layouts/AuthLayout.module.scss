@@ -1,0 +1,22 @@
+.shell {
+  height: 100dvh;
+  max-height: 100dvh;
+  overflow: hidden;
+  background: var(--color-surface);
+  animation: auth-shell-in 500ms ease both;
+}
+
+@keyframes auth-shell-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .shell {
+    animation: none;
+  }
+}
