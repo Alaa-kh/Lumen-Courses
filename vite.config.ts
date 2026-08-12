@@ -5,7 +5,8 @@ import react from '@vitejs/plugin-react'
 
 const rootDir = path.dirname(fileURLToPath(import.meta.url))
 
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
+  base: mode === 'pages' ? '/Lumen-Courses/' : '/',
   plugins: [react()],
   resolve: {
     alias: {
@@ -21,4 +22,4 @@ export default defineConfig({
       },
     },
   },
-})
+}))
