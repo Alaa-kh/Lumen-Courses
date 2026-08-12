@@ -1,0 +1,1 @@
+import{a as e}from"./Button-B7vBFRIy.js";var t={badge:`_badge_1d0ft_1`,neutral:`_neutral_1d0ft_18`,accent:`_accent_1d0ft_23`,promo:`_promo_1d0ft_29`,success:`_success_1d0ft_35`},n=e();function r({children:e,tone:r=`neutral`}){return(0,n.jsx)(`span`,{className:[t.badge,t[r]].join(` `),children:e})}export{r as t};

@@ -1,0 +1,1 @@
+function e(e,t=`en`){return new Intl.DateTimeFormat(t===`ar`?`ar`:`en`,{year:`numeric`,month:`short`,day:`numeric`}).format(new Date(e))}export{e as t};
